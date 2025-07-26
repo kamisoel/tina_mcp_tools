@@ -1,0 +1,31 @@
+[project]
+name = "uksh-mensa-mcp"
+version = "0.1.0"
+description = "MCP that gives access to the UKSH mensa plan"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.13.4",
+    "fastmcp>=2.10.2",
+    "requests>=2.32.4",
+    "camelot-py>=1.0.0",
+    "pypdfium2>=4.30.1",
+    "ghostscript>=0.8.1",
+    "tzdata>=2025.2",
+]
+
+# [tool.uv.sources]
+# uksh_mensa_mcp = { path = "src/uksh_mensa_mcp", editable = true }
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.sources]
+"src/uksh_mensa_mcp" = "uksh_mensa_mcp"
+
+# [tool.hatch.build.targets.wheel]
+# packages = ["uksh_mensa_mcp"]
+
+[project.scripts]
+uksh-mensa-mcp = "uksh_mensa_mcp.server:main"
