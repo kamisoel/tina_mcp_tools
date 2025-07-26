@@ -1,13 +1,18 @@
 # 🛠️ TINA - MCP Tools for an individualized assistant
 
-This project includes two lightweight but powerful [fastMCP](https://github.com/grobian/fastmcp) servers built to solve real-world problems using local LLMs, smart embedding, and fast retrieval — all without the need for cloud dependencies. They are the result of an [opencampus.sh](https://edu.opencampus.sh/) LLM course work. TINA stands for *"TINA Is Not an Acronym"*  
+This project includes two lightweight but powerful MCP (Model Context Protocol) servers built to solve real-world problems using local LLMs, smart embedding, and fast retrieval — all without the need for cloud dependencies. They are the result of a coursework for the [opencampus.sh](https://edu.opencampus.sh/) course *"From LLMs to AI Agents"*.
+The related presentation can be found [here](LLM_Course_TINA.pdf).    
 The MCP servers were tested with [Jan.ai](https://jan.ai/) v0.6.5 and Jan Nano 4B.
+
+Git: [github link](https://github.com/kamisoel/tina_mcp_tools)
+
+P.S. TINA stands for *"TINA Is Not an Acronym"*  
 
 ---
 
 ## 🔧 Included Servers
 
-### 1. 🥗 UKSH Mensa Tool
+### 1. 🥗 [UKSH Mensa Tool](uksh-mensa)
 
 A handy tool to access and query the daily menu of the UKSH Mensa.
 
@@ -20,7 +25,7 @@ A handy tool to access and query the daily menu of the UKSH Mensa.
 
 ---
 
-### 2. 🧠 DICOM Specialist
+### 2. 🧠 [DICOM Specialist](dicom-specialist)
 
 A specialized helper for navigating the complexity of the DICOM standard.
 
